@@ -1,0 +1,55 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-show i{
+    cursor: pointer;
+    color: black;
+}
+.profile{
+    margin-right: 40%;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}    
+.containt{
+    max-width: 1300px;
+    padding: 3px 5px;
+    margin: auto;
+}
+.header{
+    margin: auto;
+    background:white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    top: 0;
+    position: sticky;
+    z-index:4;
+}
+/**-----containt----*/
+.col{
+    margin-top: 100px;
+}
+.col i{
+    margin-bottom: 10px;
+}
+.col .fa-user-shield{
+    font-size: 100px;
+    color: blue;
+}
+
+
+div h6{
+    color: blue;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
